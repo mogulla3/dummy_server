@@ -3,6 +3,7 @@ GEM
   specs:
     mustermann (1.0.2)
     rack (2.0.5)
+    rack-cors (1.0.2)
     rack-protection (2.0.3)
       rack
     sinatra (2.0.3)
@@ -16,6 +17,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  rack-cors
   sinatra
 
 BUNDLED WITH

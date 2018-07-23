@@ -1,4 +1,4 @@
-require "sinatra"
+require 'sinatra'
 
 class MyApp < Sinatra::Base
   get "/" do
